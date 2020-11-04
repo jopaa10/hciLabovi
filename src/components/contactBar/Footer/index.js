@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './style.module.css'
-import NavigationBar from '../NavigationBar/index'
-import { checkPropTypes } from 'prop-types'
+import NavigationBar from '../NavigationBar'
  
  
   const Footer = () => (
@@ -19,7 +18,7 @@ import { checkPropTypes } from 'prop-types'
         </ul>
         <ul>
           <NavigationBar useThisStyle = "footer"/>
-        </ul>
+      </ul>
     </footer>
   )
  

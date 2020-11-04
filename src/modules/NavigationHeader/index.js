@@ -1,7 +1,7 @@
 import React from 'react'
-import Logo from '../Logo'
-import Navigation from '../Navigation'
-import ContactBar from '../index'
+import Logo from '../../components/contactBar/Logo/index'
+import Navigation from '../../components/contactBar/Navigation/index'
+import ContactBar from '../../components/contactBar/index'
 
 import styles from './style.module.css'
  
